@@ -7,9 +7,13 @@ body {
 }
 
 header {
-    margin-bottom: 20px !important;
+    margin-bottom: 1em !important;
 }
 
-h1 {
-    margin-bottom: 30px;
+h1, h2, h3 {
+    margin-bottom: 1em !important;
+}
+
+header > h2 {
+    font-size: 1em !important;
 }
