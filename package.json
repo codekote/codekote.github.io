@@ -1,0 +1,21 @@
+{
+  "name": "codekote",
+  "version": "1.0.0",
+  "description": "My personal website",
+  "main": "index.ejs",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "build": "harp compile --output doc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github"
+  },
+  "keywords": [
+    "harp"
+  ],
+  "author": "Nikita Kotenko",
+  "license": "ISC"
+}

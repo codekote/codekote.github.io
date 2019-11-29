@@ -3,26 +3,17 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>codekote</title>
+	<title><%= sitename %> – <%= description %></title>
 	<link rel="stylesheet" href="css/awsm.min.css">
 	<link rel="stylesheet" type="text/css" href="css/prism.css">
 	<link rel="stylesheet" type="text/css" href="css/zoom.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
-	
 </head>
 <body>
-	<script src="include/header.js"></script>
-	<main>
-		<section>
-			<pre class="line-numbers no-whitespace-normalization"><code class="language-css">p { color: red };
-p { color: red };</code></pre>
-			<figure>
-				<img src="img/ava.jpg" data-action="zoom">
-			</figure>
-		</section>
-	</main>
-	<script src="include/footer.js"></script>
+  <%- partial("_shared/header") %>
+	<%- yield %>
+  <%- partial("_shared/footer") %>
 	<script src="js/prism.js"></script>
-	<script src="js/zoom.min.js"></script>
+  <script src="js/zoom.min.js"></script>
 </body>
 </html>
