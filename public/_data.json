@@ -1,22 +1,22 @@
 {
     "index": {
         "title": "Таймлайн",
-        "description": "Дескрипшн",
+        "description": "Дескрипшн Таймлайн",
         "h1": "Таймлайн"
     },
     "projects": {
         "title": "Проекты",
-        "description": "Дескрипшн",
+        "description": "Дескрипшн Проекты",
         "h1": "Проекты"
     },
     "about": {
         "title": "Обо мне",
-        "description": "Дескрипшн",
+        "description": "Дескрипшн Обо мне",
         "h1": "Обо мне"
     },
     "books": {
         "title": "Книги",
-        "description": "Дескрипшн",
+        "description": "Дескрипшн Книги",
         "h1": "Книги"
     }
 }

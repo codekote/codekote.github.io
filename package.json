@@ -7,15 +7,18 @@
     "doc": "doc"
   },
   "scripts": {
-    "build": "harp compile --output doc"
+    "build": "harp compile --output docs"
   },
   "repository": {
     "type": "git",
-    "url": "github"
+    "url": "codekote.github.io"
   },
   "keywords": [
     "harp"
   ],
   "author": "Nikita Kotenko",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "harp": "^0.31.0"
+  }
 }
