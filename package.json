@@ -7,8 +7,7 @@
     "doc": "doc"
   },
   "scripts": {
-    "build": "harp compile --output docs",
-    "deploy": "./_deploy"
+    "build": "harp compile --output www"
   },
   "repository": {
     "type": "git",
