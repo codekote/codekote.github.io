@@ -1,0 +1,8 @@
+#!/bin/bash
+# source is the current directory and the target the parent directory
+harp compile ./ ../
+
+# commit to the repo and push to github 
+git add .
+git commit -m "Deploy."
+git push
