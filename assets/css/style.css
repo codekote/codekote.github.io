@@ -3,9 +3,9 @@ pre > code {
 }
 
 body {
-    font-family: 'PT Mono', monospace, Arial, Helvetica, sans-serif;
-    /* font-family: 'Times New Roman', Times, serif;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    /* font-family: 'PT Mono', monospace, Arial, Helvetica, sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 body>footer{margin-top:3em !important}
