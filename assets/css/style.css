@@ -22,8 +22,8 @@ header > h2 {
     font-size: 1em !important;
 }
 
-section ul li {
+/* section ul li {
     margin-bottom: 1em;
-}
+} */
 
 .code-toolbar .toolbar-item  { font-family: arial; }
