@@ -1,2 +1,2 @@
 # codekote.github.io
-Visit my personal [webpage](https://codekote.best)
+Visit my personal [blog](https://codekote.best)
