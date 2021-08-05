@@ -25,5 +25,8 @@ header > h2 {
 /* section ul li {
     margin-bottom: 1em;
 } */
-
+ blockquote > p {
+   color: #808080;
+   padding-bottom: 1em;
+}
 .code-toolbar .toolbar-item  { font-family: arial; }
