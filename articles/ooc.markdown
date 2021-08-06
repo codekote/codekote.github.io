@@ -8,7 +8,7 @@ title: ООП в Си. Разные подходы в реализации.
 Занимательная заметка о различных подходах к реализации ООП в Си.
 
 ## #1
-@kafeman описал в своём [комметарии на Хабре](https://habr.com/ru/post/263547/comments/#comment_8515227). Для меня не совсем ясен постфикс `Private`, все структуры находятся в глобальной области видимости, методы тоже. Достучаться до члена `x` "приватной" структуры `Point2DPrivate` можно через `point->parent.private->x`. Возможно автор хотел показать общий подход к построению классов/объектов и не собирался описывать инкапсуляцию.
+@kafeman описал в своём [комметарии на Хабре](https://habr.com/ru/post/263547/comments/#comment_8515227). Для меня не совсем ясен постфикс `Private`, все структуры находятся в глобальной области видимости, методы тоже. Достучаться до члена `x` "приватной" структуры `Point2DPrivate` можно через `point->parent.private->x`. Возможно автор хотел показать общий подход к построению классов/объектов и не собирался описывать сокрытие.
 
 ```c
 // main.c
@@ -191,7 +191,7 @@ int main() {
 ```
 
 ## #2
-В книге **Extreme C** автор Amini K. постарался описать всё: инкапсуляцию и сокрытие, типы связей объектов/классов (наследование, агрегация, композиция), а также полиморфизм. И всё это на чистом Си. Автор создал [репозиторий](https://github.com/PacktPublishing/Extreme-C), где опубликовал весь исходный код, который был в книге. Конкретно по разделам исходники можно смотреть здесь:
+В книге **Extreme C** автор Amini K. постарался описать всё: инкапсуляцию и сокрытие, типы связей объектов/классов (наследование, агрегация, композиция), а также полиморфизм. И всё это на чистом Си. Автор создал [репозиторий](https://github.com/PacktPublishing/Extreme-C), где опубликовал весь исходный код, который был в книге. По разделам можно смотреть здесь:
 - [Chapter 6: OOP and Encapsulation](https://github.com/PacktPublishing/Extreme-C/tree/master/ch06-oop-and-encapsulation)
 - [Chapter 7: Composition and Aggregation](https://github.com/PacktPublishing/Extreme-C/tree/master/ch07-composition-and-aggregation)
 - [Chapter 8: Inheritance and Polymorphism](https://github.com/PacktPublishing/Extreme-C/tree/master/ch07-composition-and-aggregation)
@@ -209,7 +209,7 @@ typedef struct {
 } list_t;
 
 //...
-// Приватный метод с суффиксом __
+// Приватный метод с префиксом __
 bool_t __list_is_full(list_t* list) {
   return (list->size == MAX_SIZE);
 }
