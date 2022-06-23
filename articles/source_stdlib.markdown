@@ -7,8 +7,10 @@ title: Исходные коды стандартной библиотеки С�
 
 Иногда хочется взглянуть на то, как написан хороший код на Си, чтобы сравнить его со своим кодом, подчерпнуть из него приёмы.
  
-glibc: [https://sourceware.org/git/?p=glibc.git;a=tree](https://sourceware.org/git/?p=glibc.git;a=tree)
+[GNU Core Utilities](https://github.com/coreutils/coreutils) is the union of the GNU fileutils, sh-utils, and textutils packages.
 
-musl: [git.musl-libc.org/cgit/musl/tree](git.musl-libc.org/cgit/musl/tree)
+[GNU C Library](https://github.com/bminor/glibc) project provides the core libraries for the GNU system and GNU/Linux systems.
 
-uclibc-ng: [repo.or.cz/uclibc-ng.git/tree](repo.or.cz/uclibc-ng.git/tree)
+[musl](https://git.musl-libc.org/cgit/musl) is an implementation of the C standard library built on top of the Linux system call API, including interfaces defined in the base language standard, POSIX, and widely agreed-upon extensions. 
+
+[uClibc-ng](https://repo.or.cz/uclibc-ng.git/tree) is a small C library for developing embedded Linux systems.
